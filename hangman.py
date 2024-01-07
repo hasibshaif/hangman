@@ -31,7 +31,7 @@ def main():
 
 def choose_word():
     # Read a list of words from a CSV file and select a random word
-    with open(r"C:\Users\Hasib\Documents\VS Code Projects\Hangman\nounlist.csv", "r") as file:
+    with open(r"Hangman\nounlist.csv", "r") as file:
         reader = csv.reader(file)
         rows = list(reader)
         randomWord = random.choice(rows)
